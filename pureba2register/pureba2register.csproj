@@ -192,7 +192,6 @@
     <Compile Include="Controllers\CrearPerfilEmpresasController.cs" />
     <Compile Include="Controllers\EgresadoesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\InformacionPersonalsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PerfilEmpresasController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
@@ -214,8 +213,6 @@
     <Compile Include="Models\ConsultarOferta.cs" />
     <Compile Include="Models\Egresado.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\InformacionLaboralEgresado.cs" />
-    <Compile Include="Models\InformacionPersonal.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\CrearPerfilEmpresa.cs" />
     <Compile Include="Models\PerfilEmpresa.cs" />
@@ -307,11 +304,6 @@
     <Content Include="Views\PerfilEmpresas\Details.cshtml" />
     <Content Include="Views\PerfilEmpresas\Edit.cshtml" />
     <Content Include="Views\PerfilEmpresas\Index.cshtml" />
-    <Content Include="Views\InformacionPersonals\Create.cshtml" />
-    <Content Include="Views\InformacionPersonals\Delete.cshtml" />
-    <Content Include="Views\InformacionPersonals\Details.cshtml" />
-    <Content Include="Views\InformacionPersonals\Edit.cshtml" />
-    <Content Include="Views\InformacionPersonals\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
